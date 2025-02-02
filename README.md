@@ -2,17 +2,19 @@
 
 A React-based task management system that allows administrators to create and assign tasks to employees, while employees can manage their assigned tasks through different states.
 
-🔗 Live Demo: [Task Management System](https://your-deployment-url-here.com)
+🔗 Live Demo: [Task Management System](https://startling-capybara-b4dbbb.netlify.app/)
 
 ## Features
 
 ### Admin Dashboard
+
 - Create and assign tasks to employees
 - View all employees' task statistics
 - Monitor task status across the organization
 - Real-time updates of task statuses
 
 ### Employee Dashboard
+
 - View assigned tasks
 - Manage task statuses:
   - Accept new tasks
@@ -21,6 +23,7 @@ A React-based task management system that allows administrators to create and as
 - Track personal task statistics
 
 ## Task States
+
 1. New Task 🆕
 2. Active Task ▶️
 3. Completed Task ✅
@@ -29,12 +32,14 @@ A React-based task management system that allows administrators to create and as
 ## Test Credentials
 
 ### Admin Access
+
 ```
 Email: admin@me.com
 Password: 123
 ```
 
 ### Employee Access
+
 ```
 Email: e@e.com
 Password: 123
@@ -53,12 +58,14 @@ Password: 123
 ```
 
 ## Technologies Used
+
 - React 18
 - Context API for state management
 - Tailwind CSS for styling
 - localStorage for data persistence
 
 ## Key Features
+
 - Responsive design
 - Real-time task status updates
 - Persistent data storage
@@ -69,17 +76,20 @@ Password: 123
 ## Installation and Setup
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/your-username/task-management-system.git
 ```
 
 2. Install dependencies:
+
 ```bash
 cd task-management-system
 npm install
 ```
 
 3. Start the development server:
+
 ```bash
 npm run dev
 ```
@@ -89,6 +99,7 @@ npm run dev
 ## Usage
 
 1. Login as admin to:
+
    - Create new tasks
    - Assign tasks to employees
    - Monitor overall progress
@@ -98,4 +109,3 @@ npm run dev
    - Accept new tasks
    - Update task status
    - Track personal progress
-
